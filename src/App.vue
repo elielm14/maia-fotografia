@@ -1,18 +1,21 @@
 <template>
   <div id="app">
-    
+
+    <Header/>
+
+
   </div>
 </template>
 
 <script>
 
-import './components/style/global.css';
-import Home from './components/home/Home.vue';
+import Header from './components/header/Header.vue'
 
 export default {
   name: 'App',
  components: {
-    Home
+    Header
+
   }
 }
 
