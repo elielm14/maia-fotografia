@@ -3,6 +3,8 @@
 
     <Header/>
 
+    <main></main>
+
 
   </div>
 </template>
