@@ -16,7 +16,7 @@ import { createClient } from 'pexels';
 
 const client = createClient('563492ad6f91700001000001e6d8a5315f0240f3902236ca5b3fb1b5');
 const query = 'Nature';
-client.photos.search({ query }).then(photos => {console.log(photos)});
+client.photos.search({ query }).then(photos => console.log(photos));
 
 export default {
 
