@@ -15,31 +15,18 @@
 import { createClient } from 'pexels';
 
 const client = createClient('563492ad6f91700001000001e6d8a5315f0240f3902236ca5b3fb1b5');
+const query = 'Nature';
+client.photos.search({ query }).then(photos => console.log(photos));
 
 export default {
 
   data(){
       
-      return{
-        tituloPag: 'Photos On',
-        fotos:[
-          {
-            url: 'https://media.gazetadopovo.com.br/viver-bem/2018/11/dog3-600x459-0e01be20.jpg',
-            titulo: 'cachorro preto'
-          },
-          {
-            url: 'https://blog.appegada.com/thumb/blog/1/780/500/1a09bacc2740e0f8e3c2b10bd5bf01ae.jpg',
-            titulo: 'cachorro caramelo'
-          }
-        ]
-      }
-    },
-
-    created(){
-      let promise = this.$http.get('http://api.pexels.com/v1/');
-      promise.then(res => res.json()
-      .then())
+    return{
+      tituloPag: 'Photos On',
+      photos:[]
     }
+  },
 }
 </script>
 
