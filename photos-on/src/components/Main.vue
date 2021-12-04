@@ -7,7 +7,7 @@
 
         <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
 
-          <img :src="imagem.src.medium" :alt="imagem.titulo">
+          <img :src="imagem.src.landscape" :alt="imagem.titulo">
 
         </li>
 
