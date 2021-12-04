@@ -12,15 +12,14 @@ footer{
 .copyrigth{
     color: #000000;
     font-size: 20px;
-    margin-top: 300px;
+    margin-top: 150px;
     }
 .footer-fundo{
     background-image: url(https://images.pexels.com/photos/261763/pexels-photo-261763.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    min-height: 350px;
+    min-height: 300px;
     background-attachment: fixed;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.9;
 }
 </style>
