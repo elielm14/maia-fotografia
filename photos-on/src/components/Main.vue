@@ -1,20 +1,22 @@
 <template>
   <div class="main">
-    <h1>{{ tituloPag }}</h1>
+
     <div class="fotos-api">
-      <ul class="lista-api">
-        <li class="item-api" v-for="imagem in imagens" :key="imagem.id">
 
-          <a :href="imagem.url">
+      <ul class="lista-fotos">
 
-            <img :src="imagem.src.portrait" :alt="imagem.titulo">
+        <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
 
-          </a>
+          <img :src="imagem.src.medium" :alt="imagem.titulo">
 
         </li>
+
       </ul>
+
     </div>
+
   </div>
+
 </template>
 
 <script>
@@ -25,8 +27,9 @@ export default {
   data(){
       
     return{
-      tituloPag: 'Photos On',
+
       imagens:[]
+
     }
   },
 
@@ -51,15 +54,16 @@ export default {
 
 <!-- scoped para uso de estilo exclusivo -->
 <style scoped>
-.fotos-api .lista-api{
-  display: inline;
-  width: 350px;
-  height: 350px;
+.main{
+text-align: center;
 }
-.item-api{
-  height: 320px;
-  max-width: 320px;
-  vertical-align: bottom;
-  padding: 20px;
+.lista-fotos .lista-fotos-item{
+  display: inline-block;
+}
+.lista-fotos-item{
+  height: auto;
+  width: 100%;
+  list-style: none;
+  padding: 10px 0px;
 }
 </style>
