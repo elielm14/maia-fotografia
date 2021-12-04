@@ -37,7 +37,7 @@ export default {
 
     try {
       const client = createClient('563492ad6f91700001000001e6d8a5315f0240f3902236ca5b3fb1b5');
-      const query = 'pessoas';
+      const query = 'casamento';
       client.photos.search({ query, locale: 'pt-BR'/* , page: 2  */}).then(response => {
         this.imagens = response.photos
       });
@@ -65,5 +65,6 @@ text-align: center;
   width: 100%;
   list-style: none;
   padding: 10px 0px;
+  
 }
 </style>

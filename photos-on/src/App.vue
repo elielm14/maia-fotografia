@@ -5,6 +5,10 @@
 </template>
 
 <style>
+body, html{
+  margin: 0;
+  padding: 0px;
+}
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
