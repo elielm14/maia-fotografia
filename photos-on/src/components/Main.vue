@@ -3,8 +3,14 @@
     <h1>{{ tituloPag }}</h1>
     <div class="fotos-api">
       <ul class="lista-api">
-        <li class="item-api" v-for="fotos in fotos" :key="fotos.url">
-          <img :src="fotos.url" :alt="fotos.titulo">
+        <li class="item-api" v-for="imagem in imagens" :key="imagem.id">
+
+          <a :href="imagem.url">
+
+            <img :src="imagem.src.portrait" :alt="imagem.titulo">
+
+          </a>
+
         </li>
       </ul>
     </div>
@@ -14,22 +20,32 @@
 <script>
 import { createClient } from 'pexels';
 
-const client = createClient('563492ad6f91700001000001e6d8a5315f0240f3902236ca5b3fb1b5');
-const query = 'Nature';
-client.photos.search({ query }).then(photos => console.log(photos));
-
 export default {
 
   data(){
       
     return{
       tituloPag: 'Photos On',
-      photos:[{
-        src:''
-      }
-      ]
+      imagens:[]
     }
   },
+
+  async created(){
+
+    try {
+      const client = createClient('563492ad6f91700001000001e6d8a5315f0240f3902236ca5b3fb1b5');
+      const query = 'pessoas';
+      client.photos.search({ query, locale: 'pt-BR'/* , page: 2  */}).then(response => {
+        this.imagens = response.photos
+      });
+
+    } catch (error) {
+      console.log(error)
+    }
+  },
+
+  methods:{
+  }
 }
 </script>
 
