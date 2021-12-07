@@ -1,5 +1,20 @@
 <template>
   <div class="contact">
-    <h1>Aqui será exibido nossos contatos</h1>
+    <Header/>
+
+    <Footer/>
   </div>
 </template>
+
+<script>
+import Header from '../components/Header.vue'
+import Footer from '../components/Footer.vue'
+
+export default {
+  name: 'Contact',
+  components: {
+    Header,
+    Footer
+  }
+}
+</script>
