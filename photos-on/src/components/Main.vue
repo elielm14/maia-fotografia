@@ -28,8 +28,8 @@ export default {
       
     return{
 
-      imagens:[]
-
+      imagens:[],
+      pagina: [5]
     }
   },
 
@@ -38,7 +38,7 @@ export default {
     try {
       const client = createClient('563492ad6f91700001000001e6d8a5315f0240f3902236ca5b3fb1b5');
       const query = 'casamento';
-      client.photos.search({ query, locale: 'pt-BR'/* , page: 2  */}).then(response => {
+      client.photos.search({ query, locale: 'pt-BR', per_page: 8, page: this.pagina }).then(response => {
         this.imagens = response.photos
       });
 
@@ -61,10 +61,6 @@ text-align: center;
   display: inline-block;
 }
 .lista-fotos-item{
-  height: auto;
-  width: 100%;
-  list-style: none;
-  padding: 10px 0px;
-  
+  padding: 40px 0px;
 }
 </style>
