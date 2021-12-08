@@ -19,7 +19,7 @@
 
         </nav>
 
-      <p class="texto-divulgação">"Toda história de amor é bonita, mas a que contamos é a minha favorita!". Eliel Maia, 2021.</p>
+<!--       <p class="texto-divulgação">"Toda história de amor é bonita, mas as que contamos são as nossas favoritas!". Eliel Maia, 2021.</p> -->
 
     </div>
 
@@ -42,8 +42,8 @@
 }
 .caixa{
   padding: 50px;
-  background-image: url(https://images.pexels.com/photos/45960/pexels-photo-45960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  min-height: 380px;
+  background-image: url(https://images.pexels.com/photos/4802274/pexels-photo-4802274.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  height: 200px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,10 +72,10 @@ li{
 #nav a.router-link-exact-active {
   color: #2c366b;
 }
-.texto-divulgação{
+/* .texto-divulgação{
   text-align: center;
-  margin: 120px 0 0 0;
+  margin: 20px 0 0 0;
   font-size: 25px;
   font-family: Arial, Helvetica, sans-serif;
-}
+} */
 </style>
