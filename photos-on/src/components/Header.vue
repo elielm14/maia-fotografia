@@ -30,7 +30,7 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital,wght@1,500&display=swap');
 #nav {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,6 +54,7 @@ h1{
   padding: 10px;
   font-weight: 750;
   margin-right: 15px;
+  font-family: 'Oswald', sans-serif;
   font-family: 'Playfair Display', serif;
 }
 li{
@@ -66,6 +67,7 @@ li{
   font-weight: 600;
   margin-top: 5px;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 #nav a.router-link-exact-active {
   color: #2c366b;
@@ -74,6 +76,6 @@ li{
   text-align: center;
   margin: 120px 0 0 0;
   font-size: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 </style>
