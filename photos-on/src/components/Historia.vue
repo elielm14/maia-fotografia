@@ -1,10 +1,89 @@
 <template>
-        <section>
+    <div>
+        <section class="pricipal">
             <h1>Maia Fotografia</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus officiis at eveniet ducimus dicta assumenda commodi temporibus cum, harum ab. Aperiam rem quis autem harum sit atque nulla quas?</p>
+            <img class = "recepcao" src="https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="foto-recepcao">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus officiis at eveniet ducimus dicta assumenda commodi temporibus cum, harum ab. Aperiam rem quis autem harum sit atque nulla quas?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, omnis natus. Quidem, at repellendus assumenda labore cupiditate officiis? Laudantium possimus eius exercitationem tempora provident, dicta quod ex unde deserunt atque.
+            </p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex nisi autem velit itaque ad accusantium libero quia? Quam, incidunt, animi ducimus ex doloribus voluptatem, dolorem eos delectus at deleniti ipsa. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aperiam nihil quam quod eligendi aut similique consequatur sequi delectus repellendus eius molestiae dolorum, maxime beatae ea ex, a ipsum voluptatem!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam dignissimos delectus nam eaque. Tempora ducimus facilis, perferendis tempore alias fugit placeat? Voluptatibus reprehenderit dolores est enim laborum veritatis dolorem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam ad vero ut, maiores eius laboriosam sapiente, aspernatur eos illo vel laudantium ullam nihil eum iusto, harum cum rem quaerat obcaecati.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, tempora debitis rem officiis, fuga aliquid enim unde laudantium odio ut aut dicta dignissimos, quia consequatur nostrum vel neque fugiat nulla!
+            </p>
         </section>
+
+        <section class="mapa">
+
+            <h2>Nosso estabelecimento</h2>
+
+            <p class="mapa-texto">Nossa empresa esta localizada no coração da cidade</p>
+
+            <div class="mapa-conteudo"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6023882719105!2d-48.476929985898146!3d-1.4145775361769493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x92a48bde151b7e13%3A0x885190cc122ea971!2sPassagem%20Severa%20Romana%20-%20Sacramenta%2C%20Bel%C3%A9m%20-%20PA%2C%2068447-000!5e0!3m2!1spt-BR!2sbr!4v1638993857323!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+
+        </section>
+
+        <section class="beneficios">
+            
+            <h3>Somos referência em Fotografia</h3>
+
+            <div class="caixa-beneficio">
+
+                <img class="fotografo" src="https://images.pexels.com/photos/1406374/pexels-photo-1406374.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="fotografo">
+
+                <ul>
+
+                    <li class="item">Atendimento personalizado</li>
+                    <li class="item">Pacotes com cerimonialista(o) incluso</li>
+                    <li class="item">Especialista em fotos externas e internas</li>
+                    <li class="item">Parcerias com os melhores buffet da região</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+    </div>
+
 </template>
 
 <style scoped>
 
+.pricipal, .mapa, .beneficios{
+    margin: 150px 0 0 0;
+}
+h1 ,h2, h3{
+    text-align: center;
+    margin: 15px 0px 20px 0px;
+}
+p{
+    text-align: justify;
+    margin: 0px 15px 0px 15px;
+    padding: 8px 0;
+}
+.recepcao{
+width: 250px;
+padding: 0 20px 0 20px;
+float: left;
+}
+.mapa-texto{
+    text-align: center;
+    margin: 20px 0;
+}
+.fotografo{
+    width: 300px;
+    padding: 0 20px 0 20px;
+    float: left;
+    margin: 0 0 0 30%;
+}
+ul{
+    margin: 50px 0px 250px 0px;
+}
+.item{
+    line-height: 1.5;
+    list-style: none;
+}
+.item:before{
+    content: "❤️";
+}
 </style>
