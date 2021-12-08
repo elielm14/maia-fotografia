@@ -50,7 +50,7 @@
 <style scoped>
 
 .pricipal, .mapa, .beneficios{
-    margin: 150px 0 0 0;
+    margin: 100px 0 90px 0;
 }
 h1 ,h2, h3{
     text-align: center;
