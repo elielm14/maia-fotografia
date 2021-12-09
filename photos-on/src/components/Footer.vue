@@ -34,16 +34,7 @@ footer{
     color: #000000;
     font-size: 15px;
     margin-left: auto;
-    }
-/* .footer-fundo{
-    background-image: url(https://images.pexels.com/photos/1303092/pexels-photo-1303092.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-    height: 100px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
+}
 ul{
     margin-top: 20px;
     margin-left: auto;
