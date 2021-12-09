@@ -48,7 +48,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Playfair+Display:ital,wght@1,500&display=swap');
 
 .pricipal, .mapa, .beneficios{
-    margin: 100px 0 90px 0;
+    margin: 100px 0 10px 0;
 }
 h1 ,h2, h3{
     text-align: center;

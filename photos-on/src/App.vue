@@ -8,7 +8,7 @@
 body, html{
   margin: 0;
   padding: 0px;
-  background-color: #dadada;
+  background-color: #e7cdcd;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
