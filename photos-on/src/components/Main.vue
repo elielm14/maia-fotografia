@@ -7,7 +7,7 @@
 
         <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
 
-          <img :src="imagem.src.landscape" :alt="imagem.titulo">
+          <img :src="imagem.src.landscape" :alt="imagem.titulo" width="60%">
 
         </li>
 
@@ -29,7 +29,7 @@ export default {
     return{
 
       imagens:[],
-      pagina: [5]
+      pagina: [1]
     }
   },
 
@@ -57,10 +57,14 @@ export default {
 .main{
 text-align: center;
 }
-.lista-fotos .lista-fotos-item{
-  display: inline-block;
+li{
+  list-style: none;
 }
 .lista-fotos-item{
   padding: 40px 0px;
 }
+/* img{
+width: 900px;
+height: 500px;
+} */
 </style>
