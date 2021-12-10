@@ -1,19 +1,15 @@
 <template>
   <div class="main">
 
-    <div class="fotos-api">
+    <ul>
 
-      <ul class="lista-fotos">
+      <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
 
-        <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
+        <img :src="imagem.src.landscape" :alt="imagem.titulo" width="60%">
 
-          <img :src="imagem.src.landscape" :alt="imagem.titulo" width="60%">
+      </li>
 
-        </li>
-
-      </ul>
-
-    </div>
+    </ul>
 
   </div>
 
@@ -63,8 +59,4 @@ li{
 .lista-fotos-item{
   padding: 40px 0px;
 }
-/* img{
-width: 900px;
-height: 500px;
-} */
 </style>
