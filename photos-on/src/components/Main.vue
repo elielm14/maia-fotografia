@@ -1,6 +1,9 @@
 <template>
   <div class="main">
 
+    <button v-on:click="proximaPagina">Proxima página</button>
+    <button v-on:click="paginaAnterior">Página Anterior</button>
+
     <ul>
 
       <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
@@ -10,6 +13,9 @@
       </li>
 
     </ul>
+
+    <button v-on:click="proximaPagina">Proxima página</button>
+    <button v-on:click="paginaAnterior">Página Anterior</button>
 
   </div>
 
@@ -25,7 +31,7 @@ export default {
     return{
 
       imagens:[],
-      pagina: [1]
+      pagina: 10
     }
   },
 
@@ -44,6 +50,16 @@ export default {
   },
 
   methods:{
+    proximaPagina: function(){
+      this.pagina = this.pagina + 1
+       console.log(this.pagina);
+       return this.pagina
+    },
+    paginaAnterior: function(){
+      this.pagina = this.pagina - 1
+       console.log(this.pagina);
+       return this.pagina
+    }
   }
 }
 </script>
