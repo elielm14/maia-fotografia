@@ -1,21 +1,15 @@
 <template>
   <div class="main">
 
-    <button v-on:click="proximaPagina">Proxima página</button>
-    <button v-on:click="paginaAnterior">Página Anterior</button>
-
     <ul>
 
       <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
 
-        <img :src="imagem.src.landscape" :alt="imagem.titulo" width="60%">
+        <img :src="imagem.src.landscape" :alt="imagem.titulo">
 
       </li>
 
     </ul>
-
-    <button v-on:click="proximaPagina">Proxima página</button>
-    <button v-on:click="paginaAnterior">Página Anterior</button>
 
   </div>
 
@@ -31,7 +25,7 @@ export default {
     return{
 
       imagens:[],
-      pagina: 10
+      pagina: [2]
     }
   },
 
@@ -50,16 +44,6 @@ export default {
   },
 
   methods:{
-    proximaPagina: function(){
-      this.pagina = this.pagina + 1
-       console.log(this.pagina);
-       return this.pagina
-    },
-    paginaAnterior: function(){
-      this.pagina = this.pagina - 1
-       console.log(this.pagina);
-       return this.pagina
-    }
   }
 }
 </script>
@@ -74,5 +58,10 @@ li{
 }
 .lista-fotos-item{
   padding: 40px 0px;
+}
+img{
+width: 800px;
+height: auto;
+object-fit: cover;
 }
 </style>
