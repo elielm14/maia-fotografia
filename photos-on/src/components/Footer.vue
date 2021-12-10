@@ -2,7 +2,7 @@
 
     <footer class="footer-fundo">
 
-        <p class="copyrigth">&copy; Copyrigth Photos On 2021</p>
+        <p class="copyrigth">&copy; Copyrigth Maia fotografia 2021</p>
 
         <section>
 
