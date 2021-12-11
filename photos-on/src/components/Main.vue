@@ -5,7 +5,9 @@
 
       <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
 
-        <img :src="imagem.src.landscape" :alt="imagem.titulo">
+      <!--   <img :src="imagem.src.landscape" :alt="imagem.titulo"> -->
+
+        <progressive-img :src="imagem.src.landscape" :placeholder="imagem.src.small" :blur="30" />
 
       </li>
 
@@ -25,7 +27,7 @@ export default {
     return{
 
       imagens:[],
-      pagina: [2]
+      pagina: [1]
     }
   },
 
@@ -59,9 +61,8 @@ li{
 .lista-fotos-item{
   padding: 40px 0px;
 }
-img{
+.progressive-image{
 width: 800px;
 height: auto;
-object-fit: cover;
 }
 </style>
