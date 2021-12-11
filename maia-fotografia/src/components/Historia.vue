@@ -3,9 +3,9 @@
         <section class="pricipal">
             <h1>Maia Fotografia</h1>
             <img class = "recepcao" src="https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="foto-recepcao">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus accusamus officiis at eveniet ducimus dicta assumenda commodi temporibus cum, harum ab. Aperiam rem quis autem harum sit atque nulla quas?
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae, omnis natus. Quidem, at repellendus assumenda labore cupiditate officiis? Laudantium possimus eius exercitationem tempora provident, dicta quod ex unde deserunt atque.
-            </p>
+            <p>Somos o portal líder em fotografia de casamentos: somos românticos que ajudam casais apaixonados nos registros do grande dia. Um momento único para aproveitar com a família e os amigos precisa ser guardado para sempre.
+
+            <p>Nos divertimos compartilhando experiências com milhares de noivas e noivos, nos emocionamos com suas histórias. Fazemos tudo isso com a colaboração de muitos profissionais da área dotados de conhecimentos técnicos, criatividade e experiência.</p>
         </section>
 
         <section class="beneficios">
