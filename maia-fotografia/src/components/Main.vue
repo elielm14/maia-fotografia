@@ -14,6 +14,7 @@
     </ul>
 
     <button v-on:click="paginaAnterior" class="botao">Página Anterior</button>
+    <button v-on:click="paginaInicio" class="botao">Início</button>
     <button v-on:click="proximaPagina" class="botao">Proxima página</button>
 
   </div>
@@ -44,9 +45,16 @@ export default {
         console.log(this.pagina);
         this.carregaPagina()
     },
-    paginaAnterior: function(){
-        this.pagina = this.pagina - 1
-        console.log(this.pagina);
+      paginaAnterior: function(){
+         if(this.pagina > 1){
+           this.pagina = this.pagina - 1
+          console.log(this.pagina);
+          this.carregaPagina()
+        }
+    },
+
+      paginaInicio: function(){
+        this.pagina = 1
         this.carregaPagina()
     },
 
