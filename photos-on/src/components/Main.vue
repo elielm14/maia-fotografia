@@ -1,9 +1,6 @@
 <template>
   <div class="main">
 
-    <button v-on:click="proximaPagina">Proxima página</button>
-    <button v-on:click="paginaAnterior">Página Anterior</button>
-
     <ul>
 
       <li class="lista-fotos-item" v-for="imagem in imagens" :key="imagem.id">
@@ -15,6 +12,9 @@
       </li>
 
     </ul>
+
+    <button v-on:click="paginaAnterior" class="botao">Página Anterior</button>
+    <button v-on:click="proximaPagina" class="botao">Proxima página</button>
 
   </div>
 
@@ -30,7 +30,7 @@ export default {
     return{
 
       imagens:[],
-      pagina: 80
+      pagina: 1
     }
   },
 
@@ -79,5 +79,21 @@ li{
 .progressive-image{
 width: 800px;
 height: auto;
+}
+.botao{
+    width: 15%;
+    padding: 15px 0;
+    margin: 30px 0 0 30px;
+    background: #6e0d0d;;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s;
+    cursor: pointer; 
+}
+.botao:hover{
+    transform: scale(1.2);
 }
 </style>
