@@ -245,7 +245,7 @@ ul{
     padding: 1px;
     height: 320px;
     background-attachment: fixed;
-    background-position-x: -166px;
+    background-position-x: 0px;
     background-position-y: -22px;
 }
 h1{
@@ -278,7 +278,7 @@ ul{
   background-image: url(https://images.pexels.com/photos/5389414/pexels-photo-5389414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=500);
   height: 200px;
   background-attachment: fixed;
-  background-position-x: -186px;
+  background-position-x: 0px;
   background-position-y: -206px;
   background-repeat: no-repeat;
   background-size: cover;

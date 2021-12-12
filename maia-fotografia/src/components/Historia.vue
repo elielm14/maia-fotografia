@@ -5,7 +5,7 @@
             <img class = "recepcao" src="https://images.pexels.com/photos/3771110/pexels-photo-3771110.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="foto-recepcao">
             <p>Somos o portal líder em fotografia de casamentos: somos românticos que ajudam casais apaixonados nos registros do grande dia. Um momento único para aproveitar com a família e os amigos precisa ser guardado para sempre.
 
-            <p>Nos divertimos compartilhando experiências com milhares de noivas e noivos, nos emocionamos com suas histórias. Fazemos tudo isso com a colaboração de muitos profissionais da área dotados de conhecimentos técnicos, criatividade e experiência.</p>
+            <p>Celebramos a vida compartilhando experiências com milhares de noivas e noivos, nos emocionamos com suas histórias. Fazemos tudo isso com a colaboração de muitos profissionais da área dotados de conhecimentos técnicos, criatividade e experiência.</p>
         </section>
 
         <section class="beneficios">
@@ -31,7 +31,7 @@
 
         <section class="mapa">
 
-            <h3>Nosso estudio</h3>
+            <h3>Nosso estúdio</h3>
 
             <p class="mapa-texto">Nossa empresa esta localizada no coração da cidade</p>
 
