@@ -82,4 +82,26 @@ label{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
+@media screen and (max-width: 520px){
+main{
+    margin: 21px 20px;
+    font-size: 20px;
+}
+form{
+    margin: 0 0 0px 15px;
+    padding: 0px 0;
+}
+#nomeSobrenome, #email, #telefone, #mensagem{
+    margin: 15px 0 15px;
+    width: 80%;
+}
+fieldset{
+    width: 80%;
+    padding: 5px 0;
+    margin: 15px 15px 15px 15px;
+}
+.enviar{
+    width: 50%;
+}
+}
 </style>

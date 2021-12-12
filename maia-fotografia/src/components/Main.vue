@@ -13,9 +13,9 @@
 
     </ul>
 
-    <button v-on:click="paginaAnterior" class="botao">Página Anterior</button>
+    <button v-on:click="paginaAnterior" class="botao">Anterior</button>
     <button v-on:click="paginaInicio" class="botao">Início</button>
-    <button v-on:click="proximaPagina" class="botao">Proxima página</button>
+    <button v-on:click="proximaPagina" class="botao">Próxima</button>
 
   </div>
 
@@ -103,5 +103,22 @@ height: auto;
 }
 .botao:hover{
     transform: scale(1.2);
+}
+@media screen and (max-width: 520px){
+.progressive-image{
+  width: 320px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
+
 }
 </style>

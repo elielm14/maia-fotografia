@@ -95,4 +95,30 @@ li{
     content: "❤️";
     margin: 0 8px 0 0;
 }
+@media screen and (max-width: 520px) {
+.pricipal{
+    margin: 0;
+    padding: 0;
+}
+.recepcao{
+    width: 160px;
+    padding: 0 15px 0 15px;
+}
+h2{
+    padding: 0 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.fotografo{
+    margin: 0px 19%;
+    padding: 9px 20px 20px 20px;
+}
+.item{
+    text-align: start;
+    margin: 20px 40px;
+}
+
+}
 </style>

@@ -42,10 +42,9 @@
 }
 .caixa{
   padding: 50px;
-  background-image: url(https://images.pexels.com/photos/5389414/pexels-photo-5389414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: url(https://images.pexels.com/photos/5389414/pexels-photo-5389414.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=500&w=500);
   height: 200px;
   background-attachment: fixed;
-  /* background-position: center; */
   background-position-x: 0px;
   background-position-y: -300px;
   background-repeat: no-repeat;
@@ -74,10 +73,27 @@ li{
 #nav a.router-link-exact-active {
   color: #000000;
 }
-/* .texto-divulgação{
+@media screen and (max-width: 520px){
+  .caixa{
+    padding: 1px;
+    height: 320px;
+    background-attachment: fixed;
+    background-position-x: -277px;
+    background-position-y: -21px;
+}
+h1{
+  margin-top: 0;
+}
+#nav{
   text-align: center;
-  margin: 20px 0 0 0;
+}
+#nav a{
   font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
-} */
+  padding: 0px 10px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+}
 </style>
