@@ -82,7 +82,7 @@ label{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media screen and (max-width: 520px){
+@media (min-width: 320px)and (max-width: 520px){
 main{
     margin: 21px 20px;
     font-size: 20px;

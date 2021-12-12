@@ -73,7 +73,7 @@ li{
 #nav a.router-link-exact-active {
   color: #000000;
 }
-@media screen and (max-width: 520px){
+@media (min-width: 320px)and (max-width: 520px){
   .caixa{
     padding: 1px;
     height: 320px;

@@ -95,7 +95,7 @@ li{
     content: "❤️";
     margin: 0 8px 0 0;
 }
-@media screen and (max-width: 520px) {
+@media (min-width: 320px)and (max-width: 520px){
 .pricipal{
     margin: 0;
     padding: 0;

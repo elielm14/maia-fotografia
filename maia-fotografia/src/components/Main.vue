@@ -104,7 +104,7 @@ height: auto;
 .botao:hover{
     transform: scale(1.2);
 }
-@media screen and (max-width: 520px){
+@media (min-width: 320px)and (max-width: 520px){
 .progressive-image{
   width: 320px;
   height: auto;
