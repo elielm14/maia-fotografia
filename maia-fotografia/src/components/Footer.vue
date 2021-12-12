@@ -54,4 +54,15 @@ img{
     width: 30px;
     padding: 0px 5px 0px 0px;
 }
+@media (min-width: 1450px)and (max-width: 2808px){
+.copyrigth{
+    color: #000000;
+    font-size: 30px;
+    margin-left: auto;
+}
+img{
+    width: 50px;
+    padding: 0px 5px 0px 0px;
+}
+}
 </style>
