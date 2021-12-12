@@ -101,7 +101,7 @@ ul{
 }
 @media (min-width: 280px)and (max-width: 319px){
   .caixa{
-    padding: 1px;
+    padding: 1px 20px;
     height: 320px;
     background-attachment: fixed;
     background-position-x: -277px;

@@ -31,7 +31,7 @@
 
         <section class="mapa">
 
-            <h3>Nosso estabelecimento</h3>
+            <h3>Nosso estudio</h3>
 
             <p class="mapa-texto">Nossa empresa esta localizada no coração da cidade</p>
 
@@ -79,7 +79,7 @@ float: left;
     width: 200px;
     padding: 9px 20px 0 20px;
     float: left;
-    margin: 0 0 0 30%;
+    margin: 0 0 0 25%;
 }
 ul{
     margin: 50px 0px 150px 0px;
@@ -95,7 +95,87 @@ li{
     content: "❤️";
     margin: 0 8px 0 0;
 }
-@media (min-width: 320px)and (max-width: 520px){
+@media (min-width: 50px)and (max-width: 150px){
+.pricipal{
+    margin: 0;
+    padding: 0;
+}
+.recepcao{
+    width: 120px;
+    padding: 0 15px 0 15px;
+}
+h2{
+    padding: 0 5px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.fotografo{
+    margin: 0px 6%;
+    float: none;
+    width: 120px;
+}
+.item{
+    text-align: start;
+    margin: 20px 40px;
+}
+
+}
+@media (min-width: 151px)and (max-width: 279px){
+.pricipal{
+    margin: 0;
+    padding: 0;
+}
+.recepcao{
+    width: 120px;
+    padding: 0 15px 0 15px;
+}
+h2{
+    padding: 0 5px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.fotografo{
+    margin: 0px;
+    float: none;
+    width: 70%;
+}
+.item{
+    text-align: start;
+    margin: 20px 0px;
+}
+
+}
+@media (min-width: 280px)and (max-width: 319px){
+.pricipal{
+    margin: 0;
+    padding: 0;
+}
+.recepcao{
+    width: 120px;
+    padding: 0 15px 0 15px;
+}
+h2{
+    padding: 0 5px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.fotografo{
+    margin: 0px 6%;
+    float: none;
+}
+.item{
+    text-align: start;
+    margin: 20px 40px;
+}
+
+}
+@media (min-width: 320px)and (max-width: 500px){
 .pricipal{
     margin: 0;
     padding: 0;
@@ -112,11 +192,132 @@ ul{
     padding: 0;
 }
 .fotografo{
-    margin: 0px 19%;
+    margin: 0px 0 0 10%;
     padding: 9px 20px 20px 20px;
+    float: none;
 }
 .item{
-    text-align: start;
+    text-align: left;
+    margin: 20px 40px;
+}
+
+}
+@media (min-width: 501px)and (max-width: 800px){
+.pricipal{
+    margin: 0;
+    padding: 0;
+}
+.recepcao{
+    width: 160px;
+    padding: 0 15px 0 15px;
+}
+h2{
+    padding: 0 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.fotografo{
+    margin: 0px 0 0 10%;
+    padding: 9px 20px 20px 20px;
+    float: none;
+}
+.item{
+    text-align: left;
+    margin: 20px 40px;
+}
+
+}
+@media (min-width: 501px)and (max-width: 880px){
+.pricipal{
+    margin: 0;
+    padding: 0;
+}
+.recepcao{
+    width: 160px;
+    padding: 0 15px 0 15px;
+}
+h2{
+    padding: 0 10px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.fotografo{
+    margin: 0px 0 0 10%;
+    padding: 9px 20px 20px 20px;
+    float: left;
+}
+.item{
+    text-align: left;
+    margin: 20px 40px;
+}
+
+}
+@media (min-width: 1450px)and (max-width: 2560px){
+.pricipal, .mapa, .beneficios{
+    margin: 150px 0 10px 0;
+}
+.recepcao{
+    width: 350px;
+    padding: 0 15px 0 15px;
+}
+h1, h2, h3{
+    padding: 0 10px;
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-size: 30px;
+}
+.fotografo{
+    margin: 0px 0 0 10%;
+    padding: 9px 20px 20px 20px;
+    width: 300px;
+}
+.item{
+    text-align: left;
+    margin: 20px 40px;
+}
+
+}
+@media (min-width: 2560px)and (max-width: 2808px){
+.pricipal, .mapa, .beneficios{
+    margin: 150px 0 10px 0;
+}
+.recepcao{
+    width: 500px;
+    padding: 0 15px 0 15px;
+}
+h1, h2, h3{
+    padding: 0 10px;
+    font-size: 80px;
+}
+p{
+    font-size: 45px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-size: 45px;
+}
+.fotografo{
+    margin: 0px 0 0 10%;
+    padding: 9px 20px 20px 20px;
+    width: 400px;
+}
+.item{
+    text-align: left;
     margin: 20px 40px;
 }
 
