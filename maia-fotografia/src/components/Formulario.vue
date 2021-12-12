@@ -82,7 +82,97 @@ label{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
 }
-@media (min-width: 320px)and (max-width: 520px){
+@media (min-width: 50px)and (max-width: 150px){
+main{
+    margin: 21px 0px;
+    font-size: 20px;
+}
+form{
+    margin: 0 5px;
+    padding: 0px 0;
+}
+#nomeSobrenome, #email, #telefone, #mensagem{
+    margin: 0 5px;
+    width: 50%;
+}
+fieldset{
+    width: 80%;
+    padding: 5px 0;
+    margin: 15px 15px 15px 15px;
+}
+.enviar{
+    width: 80%;
+    font-size: 12px;
+}
+}
+@media (min-width: 151px)and (max-width: 279px){
+main{
+    margin: 21px 0px;
+    font-size: 20px;
+}
+form{
+    margin: 0 5px;
+    padding: 0px 0;
+}
+#nomeSobrenome, #email, #telefone, #mensagem{
+    margin: 0 5px;
+    width: 60%;
+}
+fieldset{
+    width: 80%;
+    padding: 5px 0;
+    margin: 15px 15px 15px 15px;
+}
+.enviar{
+    width: 80%;
+    font-size: 12px;
+}
+}
+@media (min-width: 280px)and (max-width: 319px){
+main{
+    margin: 21px 20px;
+    font-size: 20px;
+}
+form{
+    margin: 0 0 0px 15px;
+    padding: 0px 0;
+}
+#nomeSobrenome, #email, #telefone, #mensagem{
+    margin: 15px 0 15px;
+    width: 80%;
+}
+fieldset{
+    width: 80%;
+    padding: 5px 0;
+    margin: 15px 15px 15px 15px;
+}
+.enviar{
+    width: 70%;
+}
+}
+@media (min-width: 320px)and (max-width: 500px){
+main{
+    margin: 21px 20px;
+    font-size: 20px;
+}
+form{
+    margin: 0 0 0px 15px;
+    padding: 0px 0;
+}
+#nomeSobrenome, #email, #telefone, #mensagem{
+    margin: 15px 0 15px;
+    width: 80%;
+}
+fieldset{
+    width: 80%;
+    padding: 5px 0;
+    margin: 15px 15px 15px 15px;
+}
+.enviar{
+    width: 60%;
+}
+}
+@media (min-width: 501px)and (max-width: 800px){
 main{
     margin: 21px 20px;
     font-size: 20px;
@@ -103,6 +193,36 @@ fieldset{
 .enviar{
     width: 50%;
 }
+::placeholder{
+    font-size: 20px;
 }
-
+}
+@media (min-width: 1450px)and (max-width: 2808px){
+main{
+    margin: 21px 20px;
+    font-size: 80px;
+}
+form{
+    margin: 0 0 0px 15px;
+    padding: 0px 0;
+}
+#nomeSobrenome, #email, #telefone, #mensagem{
+    margin: 0 0 10px;
+    padding: 10px 20px;
+    width: 50%;
+    height: 100px;
+}
+fieldset{
+    width: 80%;
+    padding: 5px 0;
+    margin: 15px 15px 15px 15px;
+}
+.enviar{
+    width: 40%;
+    font-size: 50px;
+}
+::placeholder{
+    font-size: 50px;
+}
+}
 </style>
