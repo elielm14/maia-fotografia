@@ -120,6 +120,38 @@ ul{
   font-size: 17px;
 }
 }
+@media (min-width: 50px)and (max-width: 200px){
+.progressive-image{
+  width: 120px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 100%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
+}
+@media (min-width: 201px)and (max-width: 279px){
+.progressive-image{
+  width: 180px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 50%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
+}
 @media (min-width: 280px)and (max-width: 320px){
 .progressive-image{
   width: 250px;
@@ -130,7 +162,7 @@ ul{
   padding: 0;
 }
 .botao{
-  width: 24%;
+  width: 50%;
   padding: 10px 0;
   margin: 30px 10px 0 10px;
   font-size: 17px;
@@ -198,6 +230,54 @@ ul{
   padding: 10px 0;
   margin: 30px 10px 0 10px;
   font-size: 17px;
+}
+}
+@media (min-width: 1450px)and (max-width: 2000px){
+  .progressive-image{
+  width: 80%;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 25px;
+}
+}
+@media (min-width: 2001px)and (max-width: 2560px){
+  .progressive-image{
+  width: 90%;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 30px;
+}
+}
+@media (min-width: 2560px)and (max-width: 2808px){
+  .progressive-image{
+  width: 90%;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 35px;
 }
 }
 </style>

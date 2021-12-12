@@ -73,6 +73,55 @@ li{
 #nav a.router-link-exact-active {
   color: #000000;
 }
+@media (min-width: 50px)and (max-width: 279px){
+  .caixa{
+    padding: 1px;
+    height: 320px;
+    background-image: none;
+}
+h1{
+  margin-top: 0;
+  text-align: center;
+  font-size: 20px;
+}
+#nav{
+  text-align: center;
+}
+#nav a{
+  font-size: 15px;
+  padding: 0px 10px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.caixa{
+  height: 40%;
+}
+}
+@media (min-width: 280px)and (max-width: 319px){
+  .caixa{
+    padding: 1px;
+    height: 320px;
+    background-attachment: fixed;
+    background-position-x: -277px;
+    background-position-y: -21px;
+}
+h1{
+  margin-top: 0;
+}
+#nav{
+  text-align: center;
+}
+#nav a{
+  font-size: 25px;
+  padding: 0px 10px;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+}
 @media (min-width: 320px)and (max-width: 520px){
   .caixa{
     padding: 1px;
