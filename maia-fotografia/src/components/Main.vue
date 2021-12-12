@@ -104,7 +104,7 @@ height: auto;
 .botao:hover{
     transform: scale(1.2);
 }
-@media (min-width: 320px)and (max-width: 520px){
+@media (min-width: 320px)and (max-width: 450px){
 .progressive-image{
   width: 320px;
   height: auto;
@@ -119,6 +119,85 @@ ul{
   margin: 30px 10px 0 10px;
   font-size: 17px;
 }
-
+}
+@media (min-width: 280px)and (max-width: 320px){
+.progressive-image{
+  width: 250px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
+}
+@media (min-width: 451px)and (max-width: 520px){
+  .progressive-image{
+  width: 400px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
+}
+@media (min-width: 521px)and (max-width: 600px){
+  .progressive-image{
+  width: 500px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
+}
+@media (min-width: 600px)and (max-width: 730px){
+  .progressive-image{
+  width: 590px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
+}
+@media (min-width: 731px)and (max-width: 840px){
+  .progressive-image{
+  width: 700px;
+  height: auto;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.botao{
+  width: 24%;
+  padding: 10px 0;
+  margin: 30px 10px 0 10px;
+  font-size: 17px;
+}
 }
 </style>
