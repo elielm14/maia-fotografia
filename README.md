@@ -24,7 +24,7 @@
 
 - Foi pensado para ser uma álbum de fotos de uma empresa fictícia especialista em casamentos.
 
-- O site está responsivo, e sua visualização pode ser feita em computadores, aparelhos móvies e TV's.
+- O site está responsivo, e sua visualização pode ser feita em computadores e aparelhos móvies.
 
 - Na página Home, seu conteúdo main exibe as fotos do tema casamento recebida pela API Pexels.
 
